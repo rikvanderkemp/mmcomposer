@@ -2,21 +2,19 @@
 // by Rik van der Kemp <rik@mief.nl>
 
 {
-    autoZoomHorizontalPadding = 50;		// extra padding when we use autoZoom
+    autoZoomHorizontalPadding = 50;   // extra padding when we use autoZoom
     backgroundColor = ffffff;
-    caretColor = 3c3c3c;				// Make the cursor match the text
-    defaultFontName = Cochin;
-    defaultFontSize = 15;				// Not so important since we use autoZoom
-	monoFontName = "Courier New";
-	monoFontSize = 13;
-//	focusMode = 1;
-//	typewriterMode = 1;
+    caretColor = 3c3c3c;        // Make the cursor match the text
+    defaultFontName = "Helvetica Neue";
+    defaultFontSize = 15;       // Not so important since we use autoZoom
+    monoFontName = "Menlo";
+    monoFontSize = 13;
     foregroundColor = 3c3c3c;
     markupForegroundColor = b8b8b8;
-    horizontalPadding = 50;				// Leave some space for margins when not zooming
-//	lineHeight = 1.7;
+    horizontalPadding = 50;       // Leave some space for margins when not zooming
+    lineHeight = 1.2;
     lineLength = 65;
-	selectionColor = 66b8b8b8;			// Use green when selecting - alpha ensures contrast
+    selectionColor = 66b8b8b8;      // Use green when selecting - alpha ensures contrast
     css = "/*!
  * Bootstrap v2.3.1
  *
@@ -232,10 +230,6 @@ textarea {
   h2,
   h3 {
     page-break-after: avoid;
-  }
-
-  code {
-    background-color: #f7f7f9;
   }
 }
 
@@ -6176,29 +6170,29 @@ a.badge:focus {
 }
 ";
     bold =     {
-		bold = 1;
+    bold = 1;
     };
     boldAndItalic =     {
-		bold = 1;
-		italic = 1;
+    bold = 1;
+    italic = 1;
     };
-	codeBlock = {
-		mono = 1;
-	};
+  codeBlock = {
+    mono = 1;
+  };
     codeSpan =     {
-		mono = 1;
+    mono = 1;
     };
     heading =     {
-		bold = 1;
+    bold = 1;
     };
     italic =     {
-		italic = 1;
+    italic = 1;
     };
-	URL = {
-		foregroundColor = 3c3c3c;
-		underline = 1;
-	};
-	comment = {
-		foregroundColor = b8b8b8;
-	};
+  URL = {
+    foregroundColor = 3c3c3c;
+    underline = 1;
+  };
+  comment = {
+    foregroundColor = b8b8b8;
+  };
 }
